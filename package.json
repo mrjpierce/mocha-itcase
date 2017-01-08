@@ -4,7 +4,7 @@
   "description": "a test case function for mocha",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/mocha-itcase.tests.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/mrjpierce/mocha-itcase/issues"
   },
-  "homepage": "https://github.com/mrjpierce/mocha-itcase#readme"
+  "homepage": "https://github.com/mrjpierce/mocha-itcase#readme",
+  "devDependencies": {
+    "sinon": "^1.17.7"
+  },
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
 }
