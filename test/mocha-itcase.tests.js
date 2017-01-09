@@ -1,7 +1,7 @@
 const assert = require('assert');
 const sinon = require('sinon');
 
-const itCase = require('./../lib/mocha-itcase').itCase;
+const itCase = require('./../lib/mocha-itcase').itCase; 
 
 console.log('creates an it with the correct testDescriptor');
 (() => {

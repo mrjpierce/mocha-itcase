@@ -2,7 +2,7 @@
   "name": "mocha-itcase",
   "version": "0.0.1",
   "description": "a test case function for mocha",
-  "main": "index.js",
+  "main": "lib/mocha-itcase.js",
   "scripts": {
     "test": "node test/mocha-itcase.tests.js"
   },
