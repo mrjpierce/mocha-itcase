@@ -8,7 +8,7 @@ npm install mocha-itcase
 ```
 
 ## Usage
-```
+``` js
 const itCase = require('mocha-itcase');
 
 function Add(a, b) {
