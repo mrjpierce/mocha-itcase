@@ -1,5 +1,5 @@
 # mocha-itcase
-
+A mocha extension for multiple test cases for the same test
 
 ## Install
 ```
@@ -9,7 +9,7 @@ npm install mocha-itcase
 
 ## Usage
 ```
-const itCase = require('mocha-itcase').itCase;
+const itCase = require('mocha-itcase');
 
 function Add(a, b) {
     return a + b;
@@ -27,7 +27,9 @@ itCase('should add numbers correctly', [
 ```
 ```
 Output:
-should add numbers correctly (2, 2, 4)
-should add numbers correctly (3, 3, 6)
-should add numbers correctly (4, 4, 8)
+    √ should add numbers correctly (2, 2, 4)
+    √ should add numbers correctly (3, 3, 6)
+    √ should add numbers correctly (4, 4, 8)
+
+  3 passing (51ms)
 ```
