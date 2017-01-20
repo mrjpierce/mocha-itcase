@@ -1,9 +1,7 @@
-declare namespace ItCase {
-    export interface itCase {
-        (testDescriptor: string, caseArray: Array<any>, testFunction: (...caseArgs) => void): void;
-    }
+declare namespace itCase {
+    export default function itCase(testDescriptor: string, caseArray: Array<any>, testFunction: (...caseArgs) => void): void;
 }
 
-declare var itCase: ItCase.itCase;
+declare function itCase(testDescriptor: string, caseArray: Array<any>, testFunction: (...caseArgs) => void): void;
 
-export default itCase;
+export = itCase;
