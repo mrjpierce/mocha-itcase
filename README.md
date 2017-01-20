@@ -8,6 +8,8 @@ npm install mocha-itcase
 ```
 
 ## Usage
+
+Javascript
 ``` js
 const itCase = require('mocha-itcase');
 
@@ -32,4 +34,10 @@ Output:
     √ should add numbers correctly (4, 4, 8)
 
   3 passing (51ms)
+```
+
+
+Alternate Typescript import, declaration file included
+``` ts
+import itCase from 'mocha-itcase';
 ```
