@@ -39,5 +39,5 @@ Output:
 
 Alternate Typescript import, declaration file included
 ``` ts
-import itCase from 'mocha-itcase';
+import * as itCase from 'mocha-itcase';
 ```
