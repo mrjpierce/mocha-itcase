@@ -1,6 +1,6 @@
 {
   "name": "mocha-itcase",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a test case function for mocha",
   "main": "lib/mocha-itcase.js",
   "types": "lib/mocha-itcase.d.ts",
